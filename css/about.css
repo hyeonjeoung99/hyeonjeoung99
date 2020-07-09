@@ -1,0 +1,55 @@
+/*21861119 조현정*/
+section#title_img {
+  width: 1500px;
+  margin: auto;
+}
+
+section#main #diagram {
+  text-align: center;
+  margin-top: 50px;
+}
+section#main #diagram p{
+  /*text-align: left;*/
+  margin-top: 15px;
+  font-size: 14px;
+}
+section#main #diagram span{
+  color: #5cb3f6;
+}
+section#main #profile{
+  float: left;
+  height: 1050px;
+  margin-top: 80px;
+}
+section#main #profile li{
+  display: inline;
+  margin: 0 2px;
+}
+section#main #profile img{
+  margin: 10px 15px 5px 15px;
+}
+section#main #profile .light{
+  margin-top:50px;
+}
+
+section#main #right {
+  float: right;
+  width: 1250px;
+}
+section#main #right .sns{
+  margin-top:50px;
+  text-align: right;
+}
+section#main #right .sns img {
+  width: 40px;
+  margin-left: 5px;
+  margin-top: 13px;
+}
+section#main #right .email{
+  text-align: right;
+  margin-top:30px;
+}
+section#main #right .email p{
+  line-height: 200%;
+  font-size: 15px;
+}

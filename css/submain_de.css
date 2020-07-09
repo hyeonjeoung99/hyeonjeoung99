@@ -1,0 +1,136 @@
+/*21861119 조현정*/
+/*sub navigaiion*/
+#sub {
+  float:right;
+  text-align: center;
+  font-size: 15px;
+  margin-right: 0px;
+}
+#sub_menu {
+  /*font-family: 'Nanum Myeongjo', serif;*/
+  width: 120px;
+  float: right;
+  margin-top: 30px;
+  /*margin-right: 100px;*/
+  /*border: solid 1px #ffffff;*/
+  /*border: solid 1px red;*/
+}
+#sub_menu h4 {
+  font-size: 14px;
+  color: #ffffff;
+  padding: 8px;
+  background-color: #5cb3f6;
+}
+#sub_menu li {
+  /*font-family: 'Noto Sans KR', sans-serif;*/
+  padding: 10px;
+  border-bottom: solid 1px #5cb3f6;
+  font-size: 13px;
+}
+#select {
+  font-weight: bold;
+}
+
+/*main*/
+section#main h3 {
+
+}
+section#main #image {
+  width: 1080px;
+  float: left;
+}
+section#main #image {
+  height: 1050px;
+  margin-top: 20px;
+}
+section#main #image h3 {
+  margin: 10px 0 0 0;
+}
+section#main #image p {
+  line-height: 180%;
+}
+section#main #image li {
+  display: inline;
+  margin-top: 20px;
+  margin: 0 10px;
+}
+section#main #image img {
+  margin-top: 10px;
+}
+section#main #image img:hover {
+  opacity: 0.7;
+}
+
+/*detail_menu*/
+section#main #detail {
+  width: 1080px;
+  float: left;
+}
+section#main #detail {
+  margin-top: 20px;
+}
+section#main #detail h3 {
+  margin: 10px 0 0 0;
+}
+section#main #detail h3#height {
+  margin: 70px 0 0 0;
+}
+section#main #detail p {
+  line-height: 160%;
+}
+section#main #detail li {
+  display: inline;
+  margin-top: 20px;
+  margin: 0 8px;
+}
+section#main #detail img {
+  margin-top: 10px;
+}
+section#main #detail #ppu {
+  margin-bottom: 20px;
+}
+section#main #detail #push {
+  margin-left: 70px;
+}
+
+/*카드뉴스 전용*/
+section#detail {
+  width: 1080px;
+  float: left;
+  margin-top: 20px;
+}
+section#detail ul {
+  margin-left: 160px;
+}
+section#detail #main_img {
+  padding: 30px 0 0 300px;
+}
+section#detail #thumnail {
+  padding: 8px 0 0 180px;
+}
+section#detail #thumnail #photos {
+  float: left;
+  margin: 10px 0 0 0;
+}
+section#detail #thumnail #photos li {
+  display:inline;
+  margin-left: 10px;
+}
+section#detail #thumnail #photos img {
+  border: solid 5px #ffffff;
+  width: 40px;
+}
+section#detail #thumnail #photos a:hover img { /*마우스 오버 시 색상 변경*/
+  border: solid 5px #5cb3f6;
+}
+
+section#main #detail #gun {
+  margin-left: 150px;
+  margin-bottom: 20px;
+}
+section#main #detail #gunvi {
+  margin-left: 170px;
+}
+section#main #detail #vi {
+  margin-left: 170px;
+}
